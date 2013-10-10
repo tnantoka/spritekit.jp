@@ -116,6 +116,14 @@ h6 {
   background: #f9f9f9;
   border: 1px solid #eee;
 }
+.sj-blog .sj-sidebar {
+  margin-top: 0;
+  border-top: none;
+}
+.sj-tutorial .sj-sidebar {
+  margin-bottom: 0;
+  border-bottom: none;
+}
 .sj-sidebar .bs-sidenav {
   background: none;
   margin: 0;
@@ -198,5 +206,18 @@ h6 {
 /* Ad */
 .sj-ad {
   text-align: center;
-  margin-bottom: 5px;
+  background: #f9f9f9;
+  border: 1px solid #eee;
 }
+.sj-blog .sj-ad {
+  margin-bottom: none;
+  border-bottom: none;
+  padding-top: 10px;
+}
+.sj-tutorial .sj-ad {
+  margin-top: none;
+  border-top: none;
+  padding-bottom: 5px;
+}
+}
+

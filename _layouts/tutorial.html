@@ -20,8 +20,7 @@ type: tutorial
     </div>
   {% endif %}
 </div>
-<div class="col-md-3 col-md-pull-9">
-  {% include ad.html %}
+<div class="col-md-3 col-md-pull-9 sj-tutorial">
   <div class="bs-sidebar sj-sidebar">
     <ul class="nav bs-sidenav">    
       {% for chapter in site.tutorial %}
@@ -31,6 +30,7 @@ type: tutorial
       {% endfor %}
     </ul>
   </div>
+  {% include ad.html %}
   {% include share.html %}
 </div>
 
