@@ -1,0 +1,36 @@
+---
+layout: default
+type: tutorial
+---
+
+<div class="col-md-9 col-md-push-3 js_contents">
+  {% if site.tutorial[page.title] %}
+    <div class="sj-content">
+      <h1>{{ site.tutorial[page.title] }}</h1>
+      <ul class="list-inline">
+        {% if page.author %}<li>{% include author.html name=page.author %}</li>{% endif %}
+        {% if page.date %}<li>{{ page.date | date_to_string }}</li>{% endif %}
+      </ul>
+      {{ content }}          
+
+      {% unless page.close_comment %}
+        <hr />
+        {% include comment.html %}
+      {% endunless %}
+    </div>
+  {% endif %}
+</div>
+<div class="col-md-3 col-md-pull-9">
+  {% include ad.html %}
+  <div class="bs-sidebar sj-sidebar">
+    <ul class="nav bs-sidenav">    
+      {% for chapter in site.tutorial %}
+        <li class="{% if page.url contains chapter[0] %}active{% endif %}">
+          <a href="/tutorial/{{ chapter[0] }}/">{{ chapter[1] }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% include share.html %}
+</div>
+

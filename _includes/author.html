@@ -1,0 +1,9 @@
+{% comment %}
+{% include author.html name="user" %}
+{% endcomment %}
+<span class="author">
+  <a href="{{ site.author[include.name].url }}" target="_blank">
+    <img src={{ site.author[include.name].avatar }}" class="avatar">
+    {{ include.name }}
+  </a>
+</span>

@@ -1,0 +1,26 @@
+---
+# https://github.com/plusjade/jekyll-bootstrap/blob/master/atom.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>{{ site.name }} : {{ site.lead }}</title>
+  <link href="{{ site.root_url }}/posts.xml" rel="self"/>
+  <link href="{{ site.root_url }}"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.root_url }}</id>
+  <author>
+    <name>tnantoka</name>
+  </author>
+ 
+  {% for post in site.posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ site.root_url }}{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.root_url }}{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+  
+</feed>

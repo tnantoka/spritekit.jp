@@ -1,0 +1,52 @@
+---
+layout: blog
+---
+{% for post in paginator.posts %}
+  <div class="sj-content">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <ul class="list-inline">
+      <li>{% include author.html name=post.author %}</li>
+      <li>{{ post.date | date_to_string }}</li>
+    </ul>
+    <div>
+      {{ post.content }}
+    </div>
+    <p>
+      <a href="{{ post.url }}#disqus_thread">コメント</a>
+    </p>
+  </div>
+{% endfor %}
+
+<ul class="pagination sj-pagination">
+  {% if paginator.previous_page %}
+    <li>
+      {% if paginator.previous_page == 1 %}
+        <a href="/">&laquo;</a>
+      {% else %}
+        <a href="{{ paginator.previous_page_path }}">&laquo;</a>
+      {% endif %}
+  {% else %}
+    <li class="disabled"><a href="#">&laquo;</a>
+  {% endif %}
+
+  {% if paginator.page == 1 %}
+    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+  {% else %}
+    <li><a href="/">1</a>
+  {% endif %}
+
+  {% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+      <li class="active"><a href="#">{{ count }} <span class="sr-only">(current)</span></a></li>
+    {% else %}
+      <li><a href="/page{{ count }}">{{ count }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path }}">&raquo;</a>
+  {% else %}
+    <li class="disabled"><a href="#">&raquo;</a>
+  {% endif %}
+</ul>
+

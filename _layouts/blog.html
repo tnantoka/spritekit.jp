@@ -1,0 +1,38 @@
+---
+layout: default
+type: 'blog'
+---
+<div class="col-md-9 col-md-push-3 js_contents">
+  {{ content }}          
+</div>
+<div class="col-md-3 col-md-pull-9">
+  {% include ad.html %}
+  <div class="bs-sidebar sj-sidebar">
+    {% include search.html %}
+    <ul class="nav bs-sidenav">    
+      {% for category in site.categories reversed %}
+
+        {% assign collapse = false %}
+
+        {% if page.categories == null and forloop.first %}
+        {% elsif page.categories[0] == category[0] %}
+        {% else %}
+          {% assign collapse = true %}
+        {% endif %}
+
+        <li>
+          <a href="#{{ category[0] }}" data-toggle="collapse" {% if collapse %}class="collapsed"{% endif %}>
+            {{ category[0] }}
+          </a>
+          <ul class="nav {% if collapse %}collapse{% else %}in{% endif %}" id="{{ category[0] }}">
+            {% for post in category[1] %}
+              <li class="{% if page.url == post.url %}active{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a>
+            {% endfor %}
+          </ul>
+      {% endfor %}
+    </ul>
+ </div>
+ {% include share.html %}
+</div>
+
+

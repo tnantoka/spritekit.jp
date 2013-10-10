@@ -1,0 +1,9 @@
+{% comment %}
+{% include image.html path="path/to/image" caption="image" [ext="gif"] %}
+{% endcomment %}
+<p class="text-center">
+  <a href="/img/{{ include.path }}.{% if include.ext %}{{ include.ext }}{% else %}png{% endif %}">
+    <img src="/img/{{ include.path }}.{% if include.ext %}{{ include.ext }}{% else %}png{% endif %}" class="img-thumbnail">
+  </a><br>
+  <span class="text-muted">{{ include.caption }}</span>
+</p>

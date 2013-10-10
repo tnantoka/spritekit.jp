@@ -1,0 +1,29 @@
+name: SpriteKit.jp
+markdown: maruku
+pygments: true
+permalink: pretty # /about.html => /abount/
+paginate: 1
+#safe: true
+
+root_url: 'http://spritekit.jp'
+lead: Sprite Kit 日本語情報サイト
+
+tutorial:
+  about: はじめに
+  adventure: Sprite Kitで作れるもの
+  hello: Hello, Sprite Kit!
+  scratch: さよならテンプレート
+  sprite: スプライトの表示
+  animation: アニメーション
+  scene: シーンを組み立てる
+  physics: 物理法則に従う
+  particle: パーティクルでリアルな表現
+  example: サンプルゲーム
+  ending: さいごに
+  source: ソースコード
+
+author:
+  tnantoka: 
+    url: 'https://twitter.com/tnantoka'
+    avatar: 'http://www.gravatar.com/avatar/dd6235a537a949bf6c6517040878c00a?s=24'
+

@@ -1,0 +1,7 @@
+{% comment %}
+{% include note.html title="title" body="html" %}
+{% endcomment %}
+<div class="bs-callout bs-callout-note">
+  {% if include.title %}<h4>{{ include.title }}</h4>{% endif %}
+  <p>{{ include.body }}</p>
+</div>
