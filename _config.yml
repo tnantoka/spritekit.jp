@@ -2,7 +2,7 @@ name: SpriteKit.jp
 markdown: maruku
 pygments: true
 permalink: pretty # /about.html => /abount/
-paginate: 1
+paginate: 5
 #safe: true
 
 root_url: 'http://spritekit.jp'
