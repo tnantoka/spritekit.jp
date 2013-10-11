@@ -12,7 +12,9 @@ type: tutorial
         {% if page.date %}<li>{{ page.date | date_to_string }}</li>{% endif %}
       </ul>
       {{ content }}          
-
+      <p class="text-right">
+        <small><a href="{{ site.repo_url }}/commits/gh-pages/{{ page.path }}" target="_blank">編集履歴</a></small>
+      </p>
       {% unless page.close_comment %}
         <hr />
         {% include comment.html %}

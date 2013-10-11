@@ -6,9 +6,11 @@ layout: blog
   <ul class="list-inline">
     <li>{% include author.html name=page.author %}</li>
     <li>{{ page.date | date_to_string }}</li>
-    <li>{{ page.path }}</li>
   </ul>
   {{ content }}
+  <p class="text-right">
+    <small><a href="{{ site.repo_url }}/commits/gh-pages/{{ page.path }}" target="_blank">編集履歴</a></small>
+  </p>
   {% unless page.close_comment %}
     <hr />
     {% include comment.html %}

@@ -6,6 +6,7 @@ paginate: 5
 #safe: true
 
 root_url: 'http://spritekit.jp'
+repo_url: 'https://github.com/tnantoka/spritekit.jp'
 lead: Sprite Kit 日本語情報サイト
 
 tutorial:
