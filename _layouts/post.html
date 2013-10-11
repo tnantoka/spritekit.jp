@@ -6,6 +6,7 @@ layout: blog
   <ul class="list-inline">
     <li>{% include author.html name=page.author %}</li>
     <li>{{ page.date | date_to_string }}</li>
+    <li>{{ page.path }}</li>
   </ul>
   {{ content }}
   {% unless page.close_comment %}
