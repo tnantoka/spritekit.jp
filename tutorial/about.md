@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: about
+without_source: true
 ---
 
 Sprite Kitは、iOS・Mac OS X向けのゲーム開発用フレームワークです。
@@ -15,5 +16,5 @@ Apple製のフレームワークを使って、あなたのゲームを全世界
 
 {% include note.html title="note" body="Sprite Kitは、あくまで<strong>iOS・Mac上で動く2Dゲーム</strong>を開発するためのフレームワークです。Androidへの対応や3D表現が必要な場合には、引き続きUtityやCocos2d-x、Open GLなどその他のツールを用いることになるでしょう。" %}
 
-[^1]: 2013年10月8日現在、Mac OS X 10.9 Mavericksはまだ正式リリースされておらず、NDAの対象となるため、本チュートリアルでは扱いません。
+[^1]: 2013年10月10日現在、Mac OS X 10.9 Mavericksはまだ正式リリースされておらず、NDAの対象となるため、本チュートリアルでは扱いません。
 

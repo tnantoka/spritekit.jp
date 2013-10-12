@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: adventure
+without_source: true
 ---
 
 Sprite Kitを使うと、いったいどんなゲームが作れるのでしょうか。

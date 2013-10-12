@@ -3,7 +3,7 @@ layout: tutorial
 title: hello
 ---
 
-本章ではSprite Kitの開発を体験します。所謂*hello, world*です。
+本章ではSprite Kitを用いた開発の流れを体験します。所謂*hello, world*です。
 
 Xcode 5には、`SpriteKit Game`テンプレートが用意されているため、プロジェクト作成時にそれを選択すれば、簡単にSprite Kitを利用することができます。
 なお、プロジェクトがシンプルになるよう、ここではデバイスは`iPhone`のみにします。

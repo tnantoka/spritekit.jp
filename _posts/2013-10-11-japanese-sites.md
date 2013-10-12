@@ -21,7 +21,7 @@ Sprite Kitを使ったいろんなサンプルが用意されています。画�
 
 ### その他
 
-* [SpriteKit - Sprite Kitの概要 - Qiita [キータ]](http://qiita.com/studiork/items/30a703b60f1974fb8e43)  
+* [SpriteKit - Sprite Kitの概要 - Qiita \[キータ\]](http://qiita.com/studiork/items/30a703b60f1974fb8e43)  
 Sprite Kitの機能をざっと。
 
 * [XCode5から追加されたSprite Kit、サンプルコードを解説してみた - NAVER まとめ](http://matome.naver.jp/odai/2137975747967707901)  
