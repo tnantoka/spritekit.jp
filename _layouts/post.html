@@ -5,7 +5,7 @@ layout: blog
   <h1>{{ page.title }}</h1>
   <ul class="list-inline">
     <li>{% include author.html name=page.author %}</li>
-    <li>{{ page.date | date_to_string }}</li>
+    <li>{{ page.date | date: "%Y年%m月%d日" }}</li>
   </ul>
   {{ content }}
   <p class="text-right">

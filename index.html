@@ -6,7 +6,7 @@ layout: blog
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <ul class="list-inline">
       <li>{% include author.html name=post.author %}</li>
-      <li>{{ post.date | date_to_string }}</li>
+      <li>{{ post.date | date: "%Y年%m月%d日" }}</li>
     </ul>
     <div>
       {{ post.content }}

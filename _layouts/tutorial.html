@@ -9,7 +9,7 @@ type: tutorial
       <h1>{{ site.tutorial[page.title] }}</h1>
       <ul class="list-inline">
         {% if page.author %}<li>{% include author.html name=page.author %}</li>{% endif %}
-        {% if page.date %}<li>{{ page.date | date_to_string }}</li>{% endif %}
+        {% if page.date %}<li>{{ page.date | date: "%Y年%m月%d日" }}</li>{% endif %}
       </ul>
       {{ content }}          
       <p class="text-right">
