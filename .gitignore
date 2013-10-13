@@ -8,3 +8,5 @@
 # Jekyll
 _site
 
+# EPUB
+epub/*.epub

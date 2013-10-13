@@ -1,5 +1,7 @@
-<!doctype html>
-<html>
+{% unless site.epub %}<!doctype html>
+<html>{% else %}<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">{% endunless %}
 <head>
   <meta charset="UTF-8" />
   <title>
@@ -23,6 +25,9 @@
   <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/css/main.css" />
   <link rel="stylesheet" href="/css/syntax.css" />
+  {% if site.epub %}
+    <link rel="stylesheet" href="/css/epub.css" />
+  {% endif %}
 
   <!--[if lt IE 9]>
     <script src="/vendor/bootstrap/assets/js/html5shiv.js"></script>
@@ -56,11 +61,15 @@
   </div>
 </nav>
 
+{% unless site.epub %}
 <div class="container sj-main">
   <div class="row">
     {{ content }}          
   </div>
 </div>
+{% else %}
+  {{ content }}          
+{% endunless %}
 
 <div class="container">
   <footer class="sj-footer clearfix">
@@ -118,6 +127,8 @@ var disqus_shortname = 'spritekitjp'; // required: replace example with your for
 }());
 </script>
 
+<script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -128,6 +139,7 @@ var disqus_shortname = 'spritekitjp'; // required: replace example with your for
   ga('send', 'pageview');
 
 </script>
+
 {% endif %}
 
 </body>

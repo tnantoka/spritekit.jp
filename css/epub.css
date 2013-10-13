@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.sj-navbar-top,
+.sj-footer,
+.sj-content .list-inline {
+  display: none;
+}
+
+.sj-body {
+  padding: 0;
+  background: none;
+}
+
+.sj-content {
+  padding: 0;
+  border: none;
+  margin-bottom: 0;
+}
+

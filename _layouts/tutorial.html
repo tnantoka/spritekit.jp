@@ -3,7 +3,11 @@ layout: default
 type: tutorial
 ---
 
+{% unless site.epub %}
 <div class="col-md-9 col-md-push-3 js_contents">
+{% else %}
+<div>
+{% endunless %}
   {% if site.tutorial[page.title] %}
     <div class="sj-content">
       <h1>{{ site.tutorial[page.title] }}</h1>
@@ -25,8 +29,12 @@ type: tutorial
     </div>
   {% endif %}
 </div>
+{% unless site.epub %}
 <div class="col-md-3 col-md-pull-9 sj-tutorial">
   <div class="bs-sidebar sj-sidebar">
+    <p class="sj-donation">
+      <a href="https://gum.co/sj-tutorial" class="gumroad-button">EPUB版</a>
+    </p>
     <ul class="nav bs-sidenav">    
       {% for chapter in site.tutorial %}
         <li class="{% if page.url contains chapter[0] %}active{% endif %}">
@@ -38,4 +46,4 @@ type: tutorial
   {% include ad.html %}
   {% include share.html %}
 </div>
-
+{% endunless %}

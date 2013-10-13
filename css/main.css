@@ -219,5 +219,10 @@ h6 {
   border-top: none;
   padding-bottom: 5px;
 }
-}
 
+/* Donation */
+.sj-donation {
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
