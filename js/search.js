@@ -32,7 +32,7 @@
     if (posts) {
       cb();
     } else {
-      $.getJSON('/posts.json', function(data) {
+      $.getJSON('/search.json', function(data) {
         posts = data;
         cb();
       });

@@ -31,6 +31,7 @@ type: tutorial
     <p class="sj-donation">
       <a href="https://gum.co/sj-tutorial" class="gumroad-button">EPUB版</a>
     </p>
+    {% include search.html %}
     <ul class="nav bs-sidenav">    
       {% for chapter in site.tutorial %}
         <li class="{% if page.url contains chapter[0] %}active{% endif %}">
