@@ -11,10 +11,6 @@ type: tutorial
   {% if site.tutorial[page.title] %}
     <div class="sj-content">
       <h1>{{ site.tutorial[page.title] }}</h1>
-      <ul class="list-inline">
-        {% if page.author %}<li>{% include author.html name=page.author %}</li>{% endif %}
-        {% if page.date %}<li>{{ page.date | date: "%Y年%m月%d日" }}</li>{% endif %}
-      </ul>
       {{ content }}          
       <ul class="list-inline text-right">
         {% unless page.without_source %}

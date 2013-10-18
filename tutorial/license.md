@@ -2,6 +2,7 @@
 layout: tutorial
 title: license
 without_source: true
+date: 2013-10-10 00:00:00 +0900
 ---
 
 本チュートリアルは、以下の素材を利用して製作しております。  

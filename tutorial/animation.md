@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: animation
+date: 2013-10-10 00:00:00 +0900
 ---
 
 前章の通り、SKSpriteNodeを使えば静止画像を簡単に表示できますが、それだけではゲームは表現できません。

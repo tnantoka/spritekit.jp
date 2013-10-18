@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: hello
+date: 2013-10-10 00:00:00 +0900
 ---
 
 本章ではSprite Kitを用いた開発の流れを体験します。所謂*hello, world*です。

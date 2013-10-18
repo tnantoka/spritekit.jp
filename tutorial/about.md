@@ -2,6 +2,7 @@
 layout: tutorial
 title: about
 without_source: true
+date: 2013-10-10 00:00:00 +0900
 ---
 
 Sprite Kitは、iOS・Mac OS X向けのゲーム開発用フレームワークです。

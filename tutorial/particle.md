@@ -1,6 +1,7 @@
 ---
 layout: tutorial
 title: particle
+date: 2013-10-10 00:00:00 +0900
 ---
 
 パーティクルというCGの技術があります。
