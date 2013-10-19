@@ -146,6 +146,9 @@ h6 {
   cursor: pointer;
   text-transform: capitalize;
 }
+.sj-blog .sj-sidebar > .nav > li > a {
+  text-transform: uppercase;
+}
 .sj-sidebar > .nav > li > a:not(.collapsed),
 .sj-sidebar > .nav .collapsing,
 .sj-sidebar > .nav .in {
