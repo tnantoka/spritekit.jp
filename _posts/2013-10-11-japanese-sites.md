@@ -45,6 +45,10 @@ FPSに関する考察が参考になりました。
 * [SpriteKit | 日曜研究室](http://peta.okechan.net/blog/archives/tag/spritekit)
 SpriteKit Gameテンプレートの説明や、物理エンジン・パーティクルについての説明があります。
 
+* [hkomo746 - Qiita \[キータ\]](http://qiita.com/hkomo746)  
+[Sprite Kit Programming Guide](https://developer.apple.com/library/ios/documentation/GraphicsAnimation/Conceptual/SpriteKit_PG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40013043)の解説記事をいくつか公開されています。このまま後半部分まで続いていけば、とてもためになりそうです。
+
+
 今後も参考になるサイトを見つけたら紹介していきたいと思います。[^1]
 
 [^1]: 2013-9-19 以前に公開されているものは除外しています。
