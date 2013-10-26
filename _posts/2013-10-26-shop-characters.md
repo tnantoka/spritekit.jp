@@ -10,7 +10,7 @@ author: tnantoka
 前回はSJCharacgterNodeの中に定数でいろいろと持たせていましたが、
 `characters.json`というファイルで定義するようにしました。[^1]
 
-{% highlight sh %}
+{% highlight js %}
 {
     "default" : {
         "stop_time" : 0.6,
