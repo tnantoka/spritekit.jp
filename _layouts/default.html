@@ -13,6 +13,10 @@
       {{ page.title }} -
     {% endif %}
 
+    {% if page.categories %}
+      {{ page.categories[0] | upcase }} -
+    {% endif %}
+
     {{ site.name }}
     {% unless page.title %}
       : {{ site.lead }}
