@@ -32,3 +32,16 @@ Xcode 5.0で遭遇した問題。
 
 何かわかったらまた書きます。
 
+<hr>
+
+Hirohito Katoさんから、コメント欄で原因を教えていただきました。  
+GPUの制限により4096x4096までのサイズしか扱えないためのようです。
+
+参考
+
+* [iOS Device Compatibility Reference: OpenGL ES Graphics](https://developer.apple.com/library/ios/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/OpenGLESPlatforms/OpenGLESPlatforms.html)
+* [ホイール欲しい ハンドル欲しい » A5 PowerVR SGX543MP2 は iOS 5 だと速い](http://wlog.flatlib.jp/?itemid=1524)
+* [ホイール欲しい ハンドル欲しい » iPhone 5s の Apple A7 GPU](http://wlog.flatlib.jp/item/1644)
+
+情報提供ありがとうございました！
+
