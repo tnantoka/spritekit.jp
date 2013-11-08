@@ -1,5 +1,5 @@
 {% comment %}
-{% include image.html path="path/to/image" caption="image" [ext="gif"] %}
+{% include image.html path="path/to/image" caption="image" ext="gif" %}
 {% endcomment %}
 <p class="text-center">
   <a href="/img/{{ include.path }}.{% if include.ext %}{{ include.ext }}{% else %}png{% endif %}">
