@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "物理エンジンを使ってお店の中を歩"
+title:  "物理エンジンを使ってお店の中を歩く"
 categories: rpg
 author: tnantoka
 ---
