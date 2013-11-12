@@ -48,6 +48,8 @@ SpriteKit Gameテンプレートの説明や、物理エンジン・パーティ
 * [hkomo746 - Qiita \[キータ\]](http://qiita.com/hkomo746)  
 [Sprite Kit Programming Guide](https://developer.apple.com/library/ios/documentation/GraphicsAnimation/Conceptual/SpriteKit_PG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40013043)の解説記事をいくつか公開されています。このまま後半部分まで続いていけば、とてもためになりそうです。
 
+* [iOS 7で簡単コーディング／50分で作るミニゲーム](http://www.studioshin.com/cocoa_sample/index.html)  
+[関西オープンフォーラム2013](https://k-of.jp/2013/)で発表されたもの。「関西オープンフォーラム 2013サンプルコード」の項目から資料とシューティングゲームのプロジェクトがダウンロードできます。
 
 今後も参考になるサイトを見つけたら紹介していきたいと思います。[^1]
 
