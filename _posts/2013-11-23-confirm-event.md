@@ -46,7 +46,7 @@ author: tnantoka
 }
 {% endhighlight %}
 
-*Yes*をタップされると`c1y`、*No*をタップされると`c1n`に進むようにします。
+*Yes*をタップされると`c1y`、*No*をタップされると`c1n`に進むようにします。[^1]
 
 #### SJStroyScene.m
 {% highlight objc %}
@@ -90,3 +90,4 @@ author: tnantoka
 
 ソースコード: [sj-prototype-apps/SJRolePlaying at master · tnantoka/sj-prototype-apps](https://github.com/tnantoka/sj-prototype-apps/tree/master/SJRolePlaying)
 
+[^1]: [BlocksKit](https://github.com/pandamonia/BlocksKit)を使用しています。 
