@@ -59,6 +59,7 @@
   
     <div class="collapse navbar-collapse navbar-collapse-top">
       <ul class="nav navbar-nav navbar-right">
+        <li class="{% if page.type == 'games' %}active{% endif %}"><a href="/games/">Games</a></li>
         <li class="{% if page.type == 'tutorial' %}active{% endif %}"><a href="/tutorial/about/">Tutorial</a></li>
         <li class="{% if page.type == 'blog' %}active{% endif %}"><a href="/">Blog</a></li>
         <li><a href="/posts.xml"><i class="icon-rss"></i></a></li>

@@ -229,3 +229,12 @@ h6 {
   padding-left: 10px;
   margin-bottom: 0;
 }
+
+/* Games */
+.sj-games h2 img {
+  width: 48px;
+  border-radius: 10px;
+}
+.sj-games img {
+  max-width: 100%;
+}

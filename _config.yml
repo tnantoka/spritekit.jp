@@ -1,6 +1,6 @@
 name: SpriteKit.jp
-markdown: maruku
-pygments: true
+markdown: kramdown
+highlighter: pygments
 permalink: pretty # /about.html => /abount/
 paginate: 5
 #safe: true

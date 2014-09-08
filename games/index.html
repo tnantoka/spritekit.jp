@@ -1,0 +1,16 @@
+---
+layout: games
+---
+
+<h2>
+  <img src="/img/games/tetloop/icon.png" />
+  <a href="https://itunes.apple.com/us/app/tetloop/id916468176">Tetloop</a>
+</h2>
+<div class="row">
+  {% for i in (1..2) %}
+    <div class="col-md-3">
+      <p><img src="/img/games/tetloop/{{ i }}.png" class="img-responsive" /></p>
+    </div>
+  {% endfor %}
+</div>
+{% include comment.html %}
