@@ -222,6 +222,13 @@ h6 {
   border-top: none;
   padding-bottom: 5px;
 }
+.sj-ad table {
+  margin: auto;
+}
+.sj-ad table img,
+.sj-content table img {
+  max-width: 100%;
+}
 
 /* Donation */
 .sj-donation {
