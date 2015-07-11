@@ -4,7 +4,9 @@ layout: blog
 <div class="sj-content">
   <h1>{{ page.title }}</h1>
   <ul class="list-inline">
-    <li>{% include author.html name=page.author %}</li>
+    {% if page.author %}
+      <li>{% include author.html name=page.author %}</li>
+    {% endif %}
     <li>{{ page.date | date: "%Y年%m月%d日" }}</li>
   </ul>
   {{ content }}
