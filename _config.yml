@@ -1,6 +1,6 @@
 name: SpriteKit.jp
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty # /about.html => /abount/
 paginate: 5
 #safe: true
