@@ -30,3 +30,5 @@ author:
 
 repo_url: 'https://github.com/tnantoka/spritekit.jp'
 
+gems:
+  - jekyll-paginate
