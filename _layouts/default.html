@@ -23,7 +23,7 @@
     {% endunless %}
   </title>
   
-  <meta name="description" content="{% unless page.title %}iOS・Mac OS X用2Dゲーム開発フレームワーク「Sprite Kit」の日本語情報サイト。Apple純正のツールを使ってあなただけのゲームを作り、App Storeで全世界に向けてリリースしよう！{% else %}{{ page.content | strip_html | strip_newlines | escape | truncate: 124 | remove: '...' }}{% endunless %}" />
+  <meta name="description" content="{% unless page.title %}iOS・Mac OS X用2Dゲーム開発フレームワーク「Sprite Kit」の日本語情報サイト。Apple純正のツールを使ってあなただけのゲームを作り、App Storeで全世界に向けてリリースしよう！ロジック用フレームワーク「Gameplay Kit」の情報も発信。{% else %}{{ page.content | strip_html | strip_newlines | escape | truncate: 124 | remove: '...' }}{% endunless %}" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
 
   <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css" />
