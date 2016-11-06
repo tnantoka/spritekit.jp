@@ -5,7 +5,7 @@ categories: matome
 author: tnantoka
 ---
 
-- [swift - Are their any guarantees made as to which body is bodyA and bodyB when didBegin(_:) is called? - Stack Overflow](http://stackoverflow.com/questions/39935911/are-their-any-guarantees-made-as-to-which-body-is-bodya-and-bodyb-when-didbegin)  
+- [swift - Are their any guarantees made as to which body is bodyA and bodyB when didBegin(\_:) is called? - Stack Overflow](http://stackoverflow.com/questions/39935911/are-their-any-guarantees-made-as-to-which-body-is-bodya-and-bodyb-when-didbegin)  
 `didBegin(_:)'をパターンマッチでリファクタリング。よさそう。
 - [ios - Restarting Sprite - Kit Game Swift - Stack Overflow](http://stackoverflow.com/questions/40051887/restarting-sprite-kit-game-swift)  
 ゲームをリセットするいい方法は？という質問に対して、Sceneを作り直せば？との回答。単純だけど、なるほど…。
