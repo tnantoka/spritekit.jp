@@ -11,5 +11,5 @@ author: tnantoka
 - [sprite kit - Adding Collision Detection to SKTileMapNode - Stack Overflow](http://stackoverflow.com/questions/39770344/adding-collision-detection-to-sktilemapnode)
   SKTileMapNodeにPhysics設定したいという話。今はダミーのNodeを作る方法しかなさそう？
 
-- [SpriteKit](http://www.sprite-kit.com/)
+- [SpriteKit.com](http://www.sprite-kit.com/)
   今更ながら…英語のSpriteKit関連情報のまとめ。便利です。
